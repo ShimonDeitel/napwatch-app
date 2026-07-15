@@ -58,6 +58,6 @@ final class Store: ObservableObject {
     }
 
     static let seedData: [SleepEntry] = [
-        SleepEntry(title: "First Sleep", stage: stageOptions[0], date: Date(), note: "Tap + to add your own."),
+        SleepEntry(title: "First Sleep", stage: SleepEntry.stageOptions[0], date: Date(), note: "Tap + to add your own."),
     ]
 }
